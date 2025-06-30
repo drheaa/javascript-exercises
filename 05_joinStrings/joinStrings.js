@@ -15,7 +15,7 @@ const lastName = "Aucharaz"
 const thisYear = 2025
 const birthYear = 2003
 
-const greeting = "Hi, how are you? My name is" + firstName + " " + lastName + " and I am" + (thisYear - birthYear) + " years old."
+const greeting = "Hi, how are you? My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old."
 
 console.log(greeting)
 
