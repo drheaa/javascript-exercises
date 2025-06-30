@@ -4,16 +4,16 @@ describe('step 2', () => {
   test('firstName is Rhea', () => {
     expect(values.firstName).toEqual('Rhea');
   });
-  test.skip('lastName is Aucharaz', () => {
+  test('lastName is Aucharaz', () => {
     expect(values.lastName).toEqual('Aucharaz');
   });
-  test.skip('thisYear is 2025', () => {
+  test('thisYear is 2025', () => {
     expect(values.thisYear).toEqual(2025);
   });
-  test.skip('birthYear is 2003', () => {
+  test('birthYear is 2003', () => {
     expect(values.birthYear).toEqual(2003);
   });
-  test.skip('greeting is properly output', () => {
+  test('greeting is properly output', () => {
     expect(values.greeting).toEqual('Hi, how are you? My name is Rhea Aucharaz and I am 22 years old.');
   });
 });
