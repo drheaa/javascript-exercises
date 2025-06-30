@@ -15,7 +15,7 @@ const lastName = "Aucharaz"
 const thisYear = 2025
 const birthYear = 2003
 
-const fullName = firstName + lastName
+const fullName = firstName + " " + lastName
 const age = thisYear - birthYear
 
 const greeting = "Hi, how are you? My name is " + fullName + " and I am " + age + " years old."
